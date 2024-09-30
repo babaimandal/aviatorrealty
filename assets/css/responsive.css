@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1200px){
+    .our-agents-wrapper .box {
+        width: 100%;
+    }
+    .our-agents-block .box .agent-info .top-block h5 {
+        font-size: 13px;
+    }
+    .our-agents-block .box .agent-info .bottom-block ul li a {
+        font-size: 13px;
+    }
+    .our-agents-block .box {
+        min-height: 431px !important;
+    }
+    .our-agents-block .box .img-block {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 991px){
+     header .rt-block{
+        justify-content: space-between  !important;
+        margin-block-end: 10px;
+    }
+    .header-wrapper header .lt-block{
+        justify-content: space-between;
+    }
+    .header-wrapper header .rt-block .register-block a {
+        font-size: 16px;
+    }
+    .neighood-wrapper .lt-block {
+        max-width: 100%;
+        text-align: center;
+    } 
+    .neighood-wrapper .lt-block h3 {
+        font-size: 35px;
+        margin-block-end: 25px;
+    }
+    .neighood-wrapper .lt-block h2 {
+        margin-block-end: 5px;
+    }
+    .banner-wrapper .banner-hero-text h1{
+        text-align: center;
+    }
+    .banner-wrapper .banner-hero-text .contact-us-button {
+        width: 100%;
+        text-align: center;
+    }
+    .neighood-wrapper {
+        padding-block: 51px;
+    }
+    .header-wrapper header .lt-block .logo-block a {
+        width: 150px;
+        height: auto;
+    }
+    .header-wrapper header .lt-block .logo-block a img{
+        width: 100%;
+        height: 100%;
+    }
+    .benefits-buying-our-home-wrapper {
+        padding-block: 41px;
+    }
+    .benefits-buying-our-home-wrapper  .text-content h3 {
+        font-size: 27px;
+    }
+    .benefits-buying-our-home-wrapper  .text-content p {
+        padding-block-end: 20px;
+    }
+    .guidance-our-clients-wrapper {
+        padding-block-start: 50px;
+        padding-block-end: 0 !important;
+    }
+    .guidance-our-clients-wrapper .title h2 {
+        font-size: 27px;
+        margin-block-end: 37px;
+    }
+    .guidance-our-clients-wrapper .box p {
+        max-width: 100%;
+    }
+    .guidance-our-clients-wrapper .box .author h4 {
+        margin-block-end: 42px;
+    }
+    .footer-border-padding {
+        padding-block-start: 40px;
+    }
+    footer .logo-block a {
+        width: 155px;
+    }
+    footer .logo-block a img{
+        width: 100%;
+    }
+    footer .logo-block {
+        margin-block-end: 15px;
+    }
+    .all-rights-reserved-wrapper nav ul{
+        justify-content: center;
+    }
+    .all-rights-reserved-wrapper p{
+        display: flex;
+        justify-content: center;
+    }
+    .all-rights-reserved-wrapper {
+        padding-bottom: 10px;
+    }
+    .our-agents-wrapper {
+        padding-block: 50px;
+    }
+    .banner-wrapper .banner-hero-text ul {
+        max-width: 539px;
+        margin-inline: auto !important;
+    }
+    .neighood-wrapper .lt-block h3 {
+        font-size: 27px;
+    }
+    .banner-wrapper {
+        padding-block: 52px;
+    }
+    .banner-wrapper .banner-hero-text ul li {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .stellarnav .full {
+        width: 100%;
+        background: #03B5C3;
+        padding-block: 10px;
+        border-radius: 2px;
+    }
+    .stellarnav .menu-toggle span.bars span{
+        background-color:  #fff !important;
+        width: 18px !important;
+        margin: 0 0 4px;
+    }
+    .stellarnav .menu-toggle span.bars{
+        margin: 0 !important;
+    }
+    .about-wrapper {
+        margin-block-end: 25px;
+    }
+    .about-wrapper .img-block img {
+        border-radius: 3px;
+    }
+    .form-wrapper {
+        margin-block-start: 61px;
+    }
+    .form-wrapper .contact-details {
+        width: 100%;
+        margin-block-start: 30px;
+    }
+    .form-wrapper form .button button{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .stellarnav.mobile>ul {
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+    .header-wrapper header .lt-block .nav-block nav ul li a {
+        padding-block: 15px !important;
+        color: #fff;
+    }
+    .stellarnav.mobile ul {
+        background-color: #222;
+        top: 131px;
+    }
+    .header-wrapper header .rt-block .register-block{
+        padding: 0 !important;
+    }
+    .neighood-wrapper .rt-block .box .img-block{
+        width: 100%;
+    }
+    .neighood-wrapper .rt-block .box{
+        width: 100%;
+    }
+    .about-wrapper {
+        margin-block-start: 28px;
+    }
+    .about-wrapper .img-block{
+        margin-block-end: 25px;
+    }
+    .our-agents-block .box .img-block {
+        height: 211px;
+    }
+    .our-agents-block .box .agent-info h4 {
+        font-size: 16px;
+    }
+    .our-agents-block .box .agent-info .top-block h5 {
+        font-size: 14px;
+    }
+    .our-agents-block .box {
+        min-height: 400px;
+        margin-block-end: 25px;
+    }
+    .our-agents-block {
+        margin-block-end: 0px;
+    }
+    .form-wrapper {
+        margin-block-end: 36px;
+    }
+    .form-wrapper {
+        margin-block-start: 26px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .header-wrapper header .rt-block .submit-listing-button-block{
+        display: none;
+    }
+    header .rt-block {
+        justify-content: end !important;
+    }
+    .banner-wrapper .banner-hero-text h1 {
+        font-size: 65px;
+    }
+    .banner-wrapper .banner-hero-text ul li{
+        justify-content: center;
+    }
+    .banner-wrapper .banner-hero-text ul {
+        max-width: 439px;
+    }
+    .stellarnav.mobile ul {
+        top: 116px;
+    }
+    
+}
+@media only screen and (max-width: 524px){
+   .our-agents-block .col-lg-3.col-md-6.col-sm-6.col-6{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 425px){
+    .banner-wrapper .banner-hero-text h1 {
+        font-size: 45px;
+    }
+    .banner-wrapper .banner-hero-text ul li {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .banner-wrapper .banner-hero-text ul {
+        max-width: 292px;
+    }
+    .banner-wrapper .banner-hero-text ul li i {
+        padding-inline-end: 0px;
+    }
+    .cmn-contact-btn {
+        font-size: 12px;
+    }
+    .banner-wrapper {
+        padding-block: 37px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.88)), url(../images/banner-img.jpg) no-repeat center center;
+    }
+    .banner-wrapper .banner-hero-text ul li i {
+        font-size: 37px;
+    }
+    .banner-wrapper .banner-hero-text ul li{
+        align-items: start !important;
+    }
+    .our-agents-wrapper {
+        padding-block: 25px;
+    }
+    .neighood-wrapper .lt-block h3 {
+        font-size: 22px;
+    }
+    .neighood-wrapper {
+        padding-block: 28px;
+    }
+    .benefits-buying-our-home-wrapper {
+        padding-block: 18px;
+    }
+    .benefits-buying-our-home-wrapper .text-content h3 {
+        font-size: 22px;
+    }
+    .guidance-our-clients-wrapper .title h2 {
+        font-size: 22px;
+        margin-block-end: 19px;
+    }
+    .guidance-our-clients-wrapper {
+        padding-block-start: 35px;
+    }
+    .footer-border-padding {
+        padding-block-start: 22px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

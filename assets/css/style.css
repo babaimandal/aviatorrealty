@@ -1,0 +1,1087 @@
+:root{
+    --primary-color     : #27425D;
+    --six-cap-font      : "Six Caps", sans-serif;
+    --lato-font         : "Lato", sans-serif;
+    --arimo-font        : "Arimo", sans-serif;
+    --roboto-font       : "Roboto", sans-serif;;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Six Caps", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-family: "Arimo", sans-serif;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.cmn-contact-btn{
+    font-family: "Arimo", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background-color: #FFFFFF;
+    padding: 15px 50px 15px 50px;
+    border-radius: 3px;
+    margin-block-start: 27px;
+    transition: 0.5s ease-in-out;
+    font-weight: 500;
+}
+/* ==================== =================== ================== ================== */
+/* ========== ============== ===== HEADER BLOCK ====== ============ ============= */
+.header-wrapper header .lt-block .logo-block .our-agents-wrapper{
+    display: flex;
+}
+.header-wrapper header .lt-block .nav-block nav ul li a{
+    color: #29333d;
+    padding-inline: 16px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+   padding-block: 0 !important;
+}
+.header-wrapper header .rt-block .register-block{
+    padding-inline-end: 16px;
+}
+.header-wrapper header .rt-block .register-block a{
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400%;
+    color: #29333d;
+    
+}
+.header-wrapper header .rt-block .submit-listing-button-block a {
+    color: #03b5c3 !important;
+    border-color: #03b5c3 !important;
+    border: 1px solid #03b5c3 !important;
+    padding-inline: 16px;
+    padding-block: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.register-form-wrapper {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #0000009c;
+	top: 0;
+	left: 0;
+	display: none;
+	backdrop-filter: blur(3px);
+	z-index: 6666666;
+}
+.sticky{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  /* ============= ============ LOG IN FORM POP-UP =================== = ====================== */
+  .register-form-wrapper1{
+    display: none;
+  }
+  .register-form-wrapper .login-details-content {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 4;
+	/*   */
+}
+.register-form-wrapper .login-details-content .wrap {
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    padding-inline: 25px;
+    padding-block: 25px;
+}
+  .register-form-wrapper h3{
+    color: #000000;
+    font-size: 21px;
+    font-family: var(--arimo-font);
+    font-weight: 400;
+  }
+  .register-form-wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #878c92
+  }
+  .register-form-wrapper p a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #000000
+  }
+ .register-form-wrapper form .box{
+    width: 100;
+  }
+  .register-form-wrapper form .box label{
+    margin-block-end: 5px;
+  }
+  .register-form-wrapper form .box input{
+    width: 100%;
+    margin-block-end: 16px;
+    padding-block: 11px;
+    border: 1px solid  #ddd;
+    border-radius: 3px;
+  }
+  .register-form-wrapper form .box input:focus{
+    outline: none;
+    background-color: #F6F6F6;
+  }
+  .register-form-wrapper form .button-group {
+    border-bottom: 1px solid #ddd;
+    padding-block-end: 16px;
+}
+  .register-form-wrapper form .button-group button {
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--arimo-font);
+    border-radius: 3px;
+    margin-block-start: 10px;
+}
+.register-form-wrapper .login-details-content .wrap{
+    border-radius: 3px;
+}
+.register-form-wrapper .login-details-content .wrap .close-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+.register-form-wrapper .login-details-content .wrap .close-button:active{
+    transform: scale(0.96);
+}
+.register-form-wrapper .login-details-content .wrap .close-button i {
+    background-color: #2DC1CD;
+    display: flex;
+    align-items: flex-start;
+    padding-block: 4px;
+    padding-inline: 4px;
+    border-radius: 0 0 15px 15px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+}
+.register-form-wrapper .login-details-content .wrap .social-icon ul li{
+    background-color: #508DAD;
+    display: flex;
+    padding-inline: 4px;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-block-start: 23px;
+    height: 42px;
+}
+.register-form-wrapper .login-details-content .wrap .social-icon ul li a{
+    padding-inline-start: 15px;
+}
+.register-form-wrapper .login-details-content .wrap .social-icon ul li:nth-child(2){
+    background-color: #C63D2D;
+}
+.register-form-wrapper .login-details-content .wrap .social-icon ul li:nth-child(3){
+    background-color: #55C5EF;
+}
+.register-form-wrapper .login-details-content .wrap .social-icon ul li i {
+    color: #fff;
+    padding-inline-start: 23px;
+}
+.register-form-wrapper .login-details-content .wrap .forget-password p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #3b4d5d;
+    margin-block-start: 23px;
+}
+.stellarnav.mobile > ul > li{
+    background-color: #0B0B0A;
+}
+
+/* ========= ================ REGISTER FORM POP-UP  ================ ================== */
+.register-form-wrapper1 {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #0000009c;
+	top: 0;
+	left: 0;
+	display: none;
+	backdrop-filter: blur(3px);
+	z-index: 6666666;
+}
+.register-form-wrapper1 .login-details-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+    bottom: -150px;
+}
+.register-form-wrapper1 .login-details-content .wrap {
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    padding-inline: 25px;
+    padding-block: 25px;
+}
+  .register-form-wrapper1 h3{
+    color: #000000;
+    font-size: 21px;
+    font-family: var(--arimo-font);
+    font-weight: 400;
+  }
+  .register-form-wrapper1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #878c92
+  }
+  .register-form-wrapper1 p a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #000000
+  }
+  .register-form-wrapper1 form .input-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ .register-form-wrapper1 form .big-box{
+    width: 100%;
+  }
+  .register-form-wrapper1 form .big-box label {
+	margin-block-end: 5px;
+	font-size: 16px;
+	font-family: var(--lato-font);
+	font-weight: 400;
+	color: #807d7d;
+}
+  .register-form-wrapper1 form .input-group .box{
+    width: 48%;
+  }
+  .register-form-wrapper1 form .input-group .box label{
+	font-size: 16px;
+	font-family: var(--lato-font);
+	font-weight: 400;
+	color: #807d7d;
+    margin-block-end: 5px;
+  }
+  .register-form-wrapper1 form .input-group .box input{
+    padding-block: 7px;
+    border: 1px solid  #ddd;
+    width: 100%;
+    margin-block-end: 16px;
+  }
+ .register-form-wrapper1 form .big-box input{
+    width: 100%;
+    margin-block-end: 16px;
+    padding-block: 11px;
+    border: 1px solid  #ddd;
+    border-radius: 3px;
+  }
+  .register-form-wrapper1 form .big-box input:focus{
+    outline: none;
+    background-color: #F6F6F6;
+  }
+  .register-form-wrapper1 form .button-group {
+    border-bottom: 1px solid #ddd;
+    padding-block-end: 16px;
+}
+  .register-form-wrapper1 form .button-group button {
+    background-color: #03B5C3;
+    color: #fff;
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--arimo-font);
+    border-radius: 3px;
+    margin-block-start: 10px;
+}
+.register-form-wrapper1 .login-details-content .wrap{
+    border-radius: 3px;
+}
+.register-form-wrapper1 .login-details-content .wrap .close-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+.register-form-wrapper1 .login-details-content .wrap .close-button:active{
+    transform: scale(0.96);
+}
+.register-form-wrapper1 .login-details-content .wrap .close-button i {
+    background-color: #2DC1CD;
+    display: flex;
+    padding-block: 4px;
+    padding-inline: 4px;
+    border-radius: 0 0 15px 15px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+}
+.register-form-wrapper1 .login-details-content .wrap .social-icon ul li{
+    background-color: #508DAD;
+    display: flex;
+    padding-block: 4px;
+    padding-inline: 4px;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-block-start: 16px;
+    height: 42px;
+}
+.register-form-wrapper1 .login-details-content .wrap .social-icon ul li:nth-child(2){
+    background-color: #C63D2D;
+}
+.register-form-wrapper1 .login-details-content .wrap .social-icon ul li:nth-child(3){
+    background-color: #55C5EF;
+}
+.register-form-wrapper1 .login-details-content .wrap .social-icon ul li i {
+    color: #fff;
+    padding-inline-start: 23px;
+}
+.register-form-wrapper1 .login-details-content .wrap .forget-password p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #3b4d5d;
+    margin-block-start: 23px;
+}
+.stellarnav.mobile > ul > li{
+    background-color: #0B0B0A;
+}
+/* ========== ============== ===== BANNER BLOCK ====== ============ ============= */
+.banner-wrapper {
+    background: linear-gradient(to bottom, rgb(0 0 0 / 27%), rgb(0 0 0 / 63%)), url(../images/banner-img.jpg) no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-block: 100px;
+}
+.banner-wrapper .banner-hero-text h1 {
+    color: #ffffff;
+    font-family: "Six Caps", Sans-serif;
+    font-size: 107px;
+    font-weight: normal;
+    line-height: 1.4em;
+    letter-spacing: 2.8px;
+    margin: 0;
+    margin-block-end: 27px;
+}
+.banner-wrapper .banner-hero-text ul {
+    max-width: 539px;
+}
+.banner-wrapper .banner-hero-text ul li i {
+    color: #6EC1E4;
+    font-size: 45px;
+    padding-inline-end: 16px;
+}
+.banner-wrapper .banner-hero-text ul li {
+    font-family: "Arimo", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 2em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.banner-wrapper .banner-hero-text .contact-us-button a{
+    transition: 0.5s ease-in-out;
+}
+.banner-wrapper .banner-hero-text a:hover{
+    background-color: #214555b9;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+.banner-wrapper .banner-hero-text a:active{
+    transform: scale(0.96);
+}
+/* ========== ============== ===== OUR AGENTS BLOCK ====== ============ ============= */
+.our-agents-wrapper{
+    background-color: #EFEFEF;
+    padding-block: 90px;
+}
+.our-agents-wrapper .box{
+    border: 1px solid #D5D9DD;
+    width: 319px;
+    height: auto;
+}
+.our-agents-wrapper .box:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.our-agents-wrapper .box .img-box{
+    width: 100%;
+    height: 100%;
+}
+.our-agents-wrapper .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px 3px 0 0;
+}
+.our-agents-wrapper .box .text-box {
+    background-color: #fff;
+    padding: 30px 20px;
+    font-size: 14px;
+    border-radius: 0 0 3px 3px;
+}
+.our-agents-wrapper .box .text-box h3 {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: var(--arimo-font);
+    margin-block-end: 2px;
+}
+.our-agents-wrapper .box .text-box p{
+    font-weight: 400;
+    color: #878c92;
+    font-family: var(--arimo-font);
+    font-size: 13px;
+    margin: 0;
+}
+/* ========== ============== ===== NEIGHOOD BLOCK ====== ============ ============= */
+.neighood-wrapper {
+    padding-block: 135px;
+    border-bottom: 1px solid #ddd;
+}
+.neighood-wrapper .lt-block {
+    max-width: 388px;
+}
+.neighood-wrapper .lt-block h2{
+    font-weight: 300;
+    font-size: 15px;
+    font-family: var(--roboto-font);
+    text-transform: uppercase;
+    color: #494f5c;
+    margin-block-end: 20px;
+}
+.neighood-wrapper .lt-block h3{
+    color: var(--primary-color);
+    font-size: 65px;
+    font-weight: 600;
+    font-family: var(--roboto-font);
+}
+.neighood-wrapper .rt-block .box{
+    width: 310px; 
+}
+.neighood-wrapper .rt-block .box .img-block{
+    width: 310px;
+    height: 266px;
+}
+.neighood-wrapper .rt-block .box .img-block img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    object-fit: cover;
+}
+.neighood-wrapper .rt-block .box .img-block img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.neighood-wrapper .rt-block .box .text-block p {
+    margin-block-start: 25px;
+    font-family: var(--roboto-font);
+    font-weight: 300;
+    font-size: 15px;
+    color: #494f5c;
+    line-height: 29px;
+}
+/* ========== ============== ===== BENEFITS BUYING  HOME ====== ============ ============= */
+.benefits-buying-our-home-wrapper{
+    padding-block: 100px;
+    border-bottom: 1px solid #ddd;
+}
+.benefits-buying-our-home-wrapper  .text-content {
+
+}
+.benefits-buying-our-home-wrapper  .text-content h3{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: var(--roboto-font);
+    margin: 0;
+    color: var(--primary-color);
+    max-width: 487px;
+    margin-inline: auto;
+}
+.benefits-buying-our-home-wrapper  .text-content p {
+    max-width: 798px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto-font);
+    text-align: center;
+    line-height: 32px;
+    padding-block-end: 60px;
+    padding-block-start: 15px;
+    margin: 0 auto;
+}
+.benefits-buying-our-home-wrapper a{
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+.benefits-buying-our-home-wrapper a:hover{
+    background-color: #53CCD6 !important;
+}
+/* ========== ============== ===== GUIDENCE CLIENT BLOCK ====== ============ ============= */
+.guidance-our-clients-wrapper {
+    padding-block-start: 100px;
+    border-bottom: 1px solid #ddd;
+    padding-block-end: 40px;
+}
+.guidance-our-clients-wrapper .title h2{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: var(--roboto-font);
+    margin-block-end: 80px;
+    color: var(--primary-color);
+}
+.guidance-our-clients-wrapper .box p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto-font);
+    text-align: center;
+    line-height: 32px;
+    max-width: 556px;
+    margin-inline: auto;
+}
+.guidance-our-clients-wrapper .box .author h4{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--roboto-font);
+    margin: 0;
+    margin-block-end: 60px;
+}
+/* ========== ============== ===== FOOETR ====== ============ ============= */
+.footer-border-padding{
+    padding-block-start: 60px;
+}
+footer{
+    padding-block-end: 45px;
+}
+footer .logo-block{
+    margin-block-end: 30px;
+}
+footer .description p {
+    font-size: 13px;
+    font-family: var(--lato-font);
+    font-weight: 400;
+    color: #191919;
+    line-height: 21px;
+    max-width: 298px;
+    margin-block-end: 20px;
+}
+footer .contact ul li a{
+    font-size: 14px;
+    font-family: var(--lato-font);
+    font-weight: 400;
+    color: #191919;
+    margin-block-end: 10px;
+}
+footer .contact ul li a i{
+    color: #191919;
+    margin-inline-end: 10px;
+}
+footer .contact ul li:nth-child(1) a i {
+    transform: rotate(253deg);
+    display: inline-block;
+}
+footer .agent-licenses h4{
+    font-size: 14px;
+    font-family: var(--lato-font);
+    font-weight: 400;
+}
+footer .social-media ul {
+    gap: 2px;
+    margin-block-start: 30px !important;
+}
+footer .social-media ul li a{
+    padding-inline: 10px;
+    padding-block: 5px;
+    border: 1px solid #d5d9dd;
+    border-radius: 3px;
+}
+footer .social-media ul li a:hover{
+    background-color: #517FA4;
+    color: #fff;
+}
+footer .social-media ul li a{
+    color: #191919;
+}
+/* ========== ============== ===== ALL RIGHTS RESERVED ====== ============ ============= */
+.all-rights-reserved-wrapper{
+    background-color: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.all-rights-reserved-wrapper nav ul li a{
+    color: #29333d;
+    padding-inline: 16px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+}
+.all-rights-reserved-wrapper p{
+    font-size: 12px;
+    font-family: var(--lato-font);
+    font-weight: 400;
+    color: #878c92;
+}
+
+/* ========== ============== ===== ABOUT PAGE ====== ============ ============= */
+/* ========== ============== ===== ABOUT PAGE => BANNER BLOCK ====== ============ ============= */
+.common-page-banner {
+    background: linear-gradient(to bottom, rgb(0 0 0 / 72%), rgb(0 0 0 / 70%)), url(../images/114035_california-hancockparkeng.jpg) no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-block: 50px;
+}
+.common-page-banner .banner-hero-text{
+    text-align: center;
+}
+.common-page-banner .banner-hero-text h1 {
+    font-size: 46px;
+    font-weight: 800;
+    font-family: var(--six-cap-font);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* ========== ============== ===== ABOUT PAGE => ABOUT BLOCK ====== ============ ============= */
+.about-wrapper{
+    margin-block-start: 60px;
+}
+.about-wrapper .text-block p{
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #494f5c;
+    line-height: 28px;
+}
+.about-wrapper .img-block {
+    width: 100%;
+    height: 100%;
+}
+.about-wrapper .img-block img{
+    width: 100%;
+    height: 100%;
+}
+/* ========== ============== ===== AGENT PAGE ====== ============ ============= */
+/* ========== ============== ===== AGENT PAGE => BANNER BLOCK ====== ============ ============= */
+.agent-banner-block{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 72%), rgb(0 0 0 / 70%)), url(../images/home-hero-bg-3.jpg) no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-block: 50px;
+}
+.agent-banner-block .banner-hero-text p{
+    font-family: var(--lato-font);
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* ========== ============== ===== AGENT PAGE => OUR AGENTS BLOCK ====== ============ ============= */
+.our-agents-block {
+    margin-block-start: 60px;
+    margin-block-end: 120px;
+}
+.our-agents-block .search-block .search-box {
+    width: 100%;
+    height: 75px;
+    background-color: #EFEFEF;
+    margin-block-end: 20px;
+    padding-block: 15px;
+    padding-inline: 22px;
+    border: 1px solid #ddd;
+}
+.our-agents-block .search-block .search-box input {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding-inline-start: 18px;
+    border: none;
+    border: 1px solid #ddd;
+}
+.our-agents-block .search-block .search-box input:focus{
+    border: 1px solid #ddd;
+    background-color: #EFEFEF;
+    outline: none;
+}
+.our-agents-block .search-block .search-box input::placeholder{
+    font-size: 12px;
+}
+.our-agents-block .box {
+    min-height: 530px;
+    border: 1px solid #ddd;
+}
+.our-agents-block .box .img-block {
+    width: 100%;
+    height: 290px;
+}
+.our-agents-block .box .img-block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-agents-block .box  .agent-info {
+    padding-inline: 10px;
+    padding-block-start: 10px;
+}
+.our-agents-block .box  .agent-info h4 {
+    font-family: var(--arimo-font);
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+    padding-block-end: 6px;
+}
+.our-agents-block .box  .agent-info .top-block  h5 {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: var(--arimo-font);
+    margin: 0;
+    padding-block-end: 5px;
+    color: #878c92;
+}
+.our-agents-block .box .agent-info .bottom-block ul li:nth-child(1){
+    border-bottom: 1px solid #ddd;
+    padding-block-end: 5px;
+}
+.our-agents-block .box .agent-info .bottom-block ul li:nth-child(2){
+    padding-block-start: 5px;
+}
+.our-agents-block .box .agent-info .bottom-block ul li:nth-child(1) i {
+    display: inline-block;
+    transform: rotate(260deg);
+}
+.our-agents-block .box .agent-info .bottom-block ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-agents-block .box .agent-info .bottom-block ul li a{
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.our-agents-block .box .agent-info .bottom-block ul li i{
+    color: #878c92;
+}
+/* ========== ============== ===== CONTENT PAGE ====== ============ ============= */
+/* ========== ============== ===== CONTENT PAGE  => BANNER BLOCK ====== ============ ============= */
+.form-wrapper {
+    margin-block-end: 100px;
+    margin-block-start: 180px;
+}
+.form-wrapper form .box {
+    width: 100%;
+    margin-block-end: 36px;
+}
+.form-wrapper form .box label{
+    font-family: var(--lato-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-wrapper form .box input {
+    border: 1px solid #ddd;
+    width: 100%;
+    outline: none;
+    padding-block: 11px;
+    border-radius: 3px;
+    padding-inline-start: 15px;
+}
+.form-wrapper form .big-box{
+    width: 100%;
+    height: 200px;
+}
+.form-wrapper form .big-box textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    padding-inline-start: 15px;
+    padding-block-start: 15px;
+}
+.form-wrapper form .button button {
+    background-color: #09B7C4;
+    padding-inline: 24px;
+    padding-block: 10px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-family: var(--arimo-font);
+    margin-block-start: 56px;
+}
+.form-wrapper .contact-details {
+    width: 292px;
+    border: 1px solid #ddd;
+}
+.form-wrapper .contact-details .title {
+    background-color: #EFEFEF;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.form-wrapper .contact-details .title h3{
+    font-size: 16px;
+    font-family: var(--arimo-font);
+    font-weight: 400;
+    margin: 0;
+    color: #262624;
+}
+.form-wrapper .contact-details .content{
+    padding: 20px;
+}
+.form-wrapper .contact-details .contact-inf ul li a i {
+    margin-inline-end: 10px;
+    font-size: 17px;
+}
+.form-wrapper .contact-details .contact-inf ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #191919;
+    margin-block-end: 10px;
+}
+.form-wrapper .contact-details .social-media ul li a i{
+    font-size: 17px;
+    color: #888;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-block-start: 20px;
+}
+/* ========== ============== ===== SUBMIT LISTING PAGE ====== ============ ============= */
+/* ========== ============== ===== SUBMIT LISTING PAGE  => LOGGED IN TO VIEW PAGE BLOCK ====== ============ ============= */
+.submit-listing-banner{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 72%), rgb(0 0 0 / 70%)), url(../images/home-hero-bg.jpg) no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-block: 50px;
+}
+.submit-listing-banner .banner-hero-text h1{
+    font-size: 46px;
+    font-weight: 800;
+    font-family: var(--arimo-font);
+    color: #fff;
+}
+.logged-in-to-view-page-wrapper .logged-in-to-view-page-content {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-block: 186px;
+    padding-inline: 100px;
+    margin-block-end: 80px;
+    margin-block-start: 60px;
+}
+.logged-in-to-view-page-wrapper .logged-in-to-view-page-content h3{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: var(--arimo-font);
+    margin-block-end: 20px;
+}
+.logged-in-to-view-page-wrapper .logged-in-to-view-page-content button{
+    background-color: #03B5C3;
+    height: 42px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: var(--lato-font);
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding-inline: 24px;
+}
+/* ========== ============== ===== AUTHOR PAGE ====== ============ ============= */
+/* ========== ============== ===== AUTHOR PAGE  => GENTS DETAILS BLOCK ====== ============ ============= */
+.agents-details-wrapper .agents-details-content{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.agents-details-wrapper .agents-details-content .author-img-block{
+    width: 100%;
+    height: 294px;
+}
+.agents-details-wrapper .agents-details-content .author-img-block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.agents-details-wrapper .agents-details-content .contact-block {
+    margin-block-start: 100px;
+    padding-inline-end: 28px;
+}
+.agents-details-wrapper .agents-details-content .contact-block ul li:nth-child(1) {
+    border-bottom: 1px solid #ddd;
+    padding-block-end: 5px;
+}
+.agents-details-wrapper .agents-details-content .contact-block ul li:nth-child(2) {
+    padding-block-start: 5px;
+}
+.agents-details-wrapper .agents-details-content .contact-block ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agents-details-wrapper .agents-details-content .contact-block ul li a{
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.agents-details-wrapper .agents-details-content .contact-block ul li i{
+    color: #878c92;
+}
+.agents-details-wrapper .agents-details-content .contact-block ul li:nth-child(1) i{
+        display: inline-block;
+        transform: rotate(257deg);
+}
+.agents-details-wrapper .agents-details-content .agent-info{
+    max-width: 589px;
+    margin-block-start: 25px;
+}
+.agents-details-wrapper .agents-details-content .agent-info h4{
+    font-size: 28px;
+    font-family: var(--arimo-font);
+    font-weight: 400;
+    color: #262624;
+}
+.agents-details-wrapper .agents-details-content .agent-info h5{
+    font-size: 17px;
+    font-family: var(--arimo-font);
+    font-weight: 400;
+    color: #878c92;
+}
+.agents-details-wrapper .agents-details-content .agent-info .description p {
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+/* ========== ============== ===== AUTHOR PAGE  => TITLE HEADER BLOCK ====== ============ ============= */
+.title-header-wrapper {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #ddd;
+    padding-block: 10px;
+    margin-block-end: 45px;
+}
+.title-header-wrapper h4{
+    font-family: var(--arimo-font);
+    font-size: 17px;
+    font-weight: 400;
+    color: #191919;
+    margin: 0;
+}
+.title-header-wrapper .breadcrumb ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--lato-font);
+    color: #191919;
+}
+.title-header-wrapper .breadcrumb ul li:nth-child(1) a{
+    color: #878c92;
+}
+.title-header-wrapper .breadcrumb ul li i{
+    font-size: 12px;
+    margin-inline: 5px;
+}
+/* ========== ============== ===== AUTHOR PAGE  => SEARCH BLOCK ====== ============ ============= */
+.search-wrapper{
+    margin: 40px 20px;
+}
+.search-wrapper .search-block .search-box{
+    width: 100%;
+    height: 75px;
+    background-color: #EFEFEF;
+    margin-block-end: 20px;
+    padding-block: 15px;
+    padding-inline: 22px;
+    border: 1px solid #ddd;
+}
+.search-wrapper .search-block .search-box input{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding-inline-start: 18px;
+    border: none;
+    border: 1px solid #ddd;
+}
+
+/* ========== ============== ===== AUTHOR PAGE  => SEARCH BLOCK ====== ============ ============= */
+.search-wrapper .search-block .search-box input::placeholder{
+    font-size: 12px;
+}
+.search-wrapper .search-block .search-box input:focus{
+    outline: none;
+    background-color: #efefef67;
+}
+/* ========== ============== ===== AUTHOR PAGE  => AGENT LISTING LIVE SERACH ====== ============ ============= */
+.agent-listing-live-search-wrapper .agent-listing-live-search-content {
+    background-color: #F9F9ED;
+    padding-block: 186px;
+    border-radius: 3px;
+    margin-block-end: 140px;
+}
+.agent-listing-live-search-wrapper .agent-listing-live-search-content h3{
+    font-family: var(--lato-font);
+    font-size: 16px;
+    font-weight: 700;
+    color: #19195D;
+    margin: 0;
+}
+.agent-listing-live-search-wrapper p strong{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
